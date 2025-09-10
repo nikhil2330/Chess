@@ -1,19 +1,16 @@
 # Chess (C++ · Bitboards · SFML)
 
-A lightweight chess engine and GUI built with C++17, bitboards, and SFML 3.
+A lightweight chess engine and GUI built with C++, bitboards, and SFML 3.
 
 ## Features
-- Bitboard move generation (castling, en passant, promotions, checks).
-- CLI mode (`e2e4`, `g7g8q`) and SFML GUI with legal-move highlights.
+- Bitboard move generation for speed.
+- CLI mode (`e2e4`, `g7g8q`) and SFML GUI mode as well.
+- Uses bitboard manipulation and zobrist hashing for speed and multiple different cases.
+- Will make the gui better, give more details and moves and then will work on the engine starting with a minimax search. Then i'll move to alpha-beta pruning. I'll try out other algorithms depending on how it goes.
+- I'll also consider using magic bitboards.
 
 ## Build (Windows)
-Requires **CMake 3.16+**, **Visual Studio 2022**, **SFML 3 (via vcpkg)**.
-
-```powershell
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64 `
-  -DCMAKE_TOOLCHAIN_FILE="$env:USERPROFILE\vcpkg\scripts\buildsystems\vcpkg.cmake"
-cmake --build build --config Release
-```
+Will give full details later
 
 ## Run 
 ```powershell
