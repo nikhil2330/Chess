@@ -1,0 +1,5 @@
+C:/Users/Robotics-17/Chess/build/CMakeFiles/chess.dir
+C:/Users/Robotics-17/Chess/build/CMakeFiles/chess_main.dir
+C:/Users/Robotics-17/Chess/build/CMakeFiles/chess_gui.dir
+C:/Users/Robotics-17/Chess/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Robotics-17/Chess/build/CMakeFiles/ZERO_CHECK.dir

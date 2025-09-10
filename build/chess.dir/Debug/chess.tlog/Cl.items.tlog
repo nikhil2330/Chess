@@ -1,0 +1,10 @@
+C:\Users\Robotics-17\Chess\src\bitboard.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\bitboard.obj
+C:\Users\Robotics-17\Chess\src\attacks.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\attacks.obj
+C:\Users\Robotics-17\Chess\src\position.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\position.obj
+C:\Users\Robotics-17\Chess\src\movegen.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\movegen.obj
+C:\Users\Robotics-17\Chess\src\make_undo.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\make_undo.obj
+C:\Users\Robotics-17\Chess\src\status.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\status.obj
+C:\Users\Robotics-17\Chess\src\fen.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\fen.obj
+C:\Users\Robotics-17\Chess\src\cli.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\cli.obj
+C:\Users\Robotics-17\Chess\src\zobrist.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\zobrist.obj
+C:\Users\Robotics-17\Chess\src\repetition.cpp;C:\Users\Robotics-17\Chess\build\chess.dir\Debug\repetition.obj

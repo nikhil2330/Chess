@@ -1,0 +1,10 @@
+^C:\USERS\ROBOTICS-17\CHESS\BUILD\CMAKEFILES\1D5B95E6B9271C87DF3D4F5050C55B99\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Robotics-17/Chess -BC:/Users/Robotics-17/Chess/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Robotics-17/Chess/build/CHESS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
