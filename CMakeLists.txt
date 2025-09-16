@@ -19,7 +19,6 @@ set(CHESS_LIB_SOURCES
     src/repetition.cpp 
 )
 
-# ---- Targets ----
 add_library(chess STATIC ${CHESS_LIB_SOURCES})
 target_include_directories(chess PUBLIC ${CMAKE_SOURCE_DIR}/include)
 
@@ -27,14 +26,11 @@ add_executable(chess_main src/main.cpp)
 target_link_libraries(chess_main PRIVATE chess)
 
 
-# ---- Tests ----
 #enable_testing()
 #add_subdirectory(tests)
 
 
-# Set SFML_DIR to the directory containing SFMLConfig.cmake if not found automatically
 #   set(SFML_DIR "C:/Path/To/SFML/lib/cmake/SFML")
-# Alternatively, add the SFML installation prefix to CMAKE_PREFIX_PATH
 # list(APPEND CMAKE_PREFIX_PATH "C:/Path/To/SFML")
 
 find_package(SFML 3 CONFIG REQUIRED COMPONENTS Graphics Window System)
@@ -42,7 +38,6 @@ find_package(SFML 3 CONFIG REQUIRED COMPONENTS Graphics Window System)
 add_executable(chess_gui src/gui_main.cpp)
 target_include_directories(chess_gui PRIVATE ${CMAKE_SOURCE_DIR}/include)
 
-# Link the SFML 3 imported targets (note the SFML:: names)
 target_link_libraries(chess_gui PRIVATE chess SFML::Graphics SFML::Window SFML::System)
 
 

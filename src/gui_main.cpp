@@ -161,7 +161,7 @@ int main() {
             glyph.setString(piece_glyph(pc));
 
             float cx = static_cast<float>(MARGIN + file_of(sq) * sqSize + sqSize * 0.5f);
-            float cy = static_cast<float>(MARGIN + (7 - rank_of(sq)) * sqSize + sqSize * 0.5f);
+            float cy = static_cast<float>(MARGIN + (7 - rank_of(sq)) * sqSize + sqSize * 0.7f);
 
             auto bounds = glyph.getLocalBounds(); 
             glyph.setOrigin({bounds.position.x + bounds.size.x * 0.5f,

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/chess_gui.exe"
+			"path" : "Debug/chess_gui.exe"
 		},
 		{
-			"path" : "Release/chess_gui.pdb"
+			"path" : "Debug/chess_gui.pdb"
 		}
 	],
 	"backtrace" : 2,
@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 42,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -43,13 +43,13 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 46,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 43,
+				"line" : 39,
 				"parent" : 0
 			}
 		]
@@ -60,7 +60,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
 				}
 			],
 			"includes" : 
@@ -106,11 +106,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
 				"role" : "flags"
 			},
 			{
@@ -119,22 +119,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\chess.lib",
+				"fragment" : "Debug\\chess.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\lib\\sfml-graphics.lib",
+				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\debug\\lib\\sfml-graphics-d.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\lib\\sfml-window.lib",
+				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\debug\\lib\\sfml-window-d.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\lib\\sfml-system.lib",
+				"fragment" : "C:\\Users\\Robotics-17\\vcpkg\\installed\\x64-windows\\debug\\lib\\sfml-system-d.lib",
 				"role" : "libraries"
 			},
 			{

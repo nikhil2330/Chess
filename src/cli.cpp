@@ -416,9 +416,6 @@ void gameloop()
                         case DrawReason::Threefold:
                             std::cout << "threefold repetition";
                             break;
-                        case DrawReason::DeadPosition:
-                            std::cout << "dead position";
-                            break;
                         case DrawReason::Agreement:
                             std::cout << "by agreement";
                             break;
